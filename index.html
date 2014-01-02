@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stem Lokaal in het Stemlokaal!</title>
+		
+		<!-- META -->
+		<meta name="author" content="Marc Teutelink"/>
+		<meta name="description" content="Gewoon Samen Doen: Dit is de officiële campagne website van Burgerbelangen Enschede voor de gemeenteraadsverkiezingen van 2014. Hierin presenteren de eerste 11 kandidaten het verkiezingsprogramma aan u voor."/>
+		<meta name="keywords" content="burgerbelangenenschede, burgerbelangen, burger, enschede, gemeenteraadverkiezingen, gemeenteraad, verkiezingen, gewoonsamendoen, lokaal, politiek, stemmen, lijst5"/>
+		<link rel="author" href="https://plus.google.com/+MarcTeutelink"/>
+		<link rel="publisher" href="https://plus.google.com/+MarcTeutelink"/>
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@burgerbelangen">
+		<meta name="twitter:title" content="Gewoon Samen Doen: Stem Burgerbelangen Enschede!">
+		<meta name="twitter:description" content="Dit is de officiële campagne website van Burgerbelangen Enschede voor de gemeenteraadsverkiezingen van 2014. Hierin presenteren de eerste 11 kandidaten het verkiezingsprogramma aan u voor.">
+		<meta name="twitter:creator" content="@mteutelink">
+		<meta name="twitter:image:src" content="http://gewoonsamendoen.nu/images/Burgerbelangen_Enschede.jpg">
+		<meta name="twitter:domain" content="gewoonsamendoen.nu">
+
+		<!-- Open Graph -->
+		<meta property=”og:title” content=”Gewoon Samen Doen: Stem Burgerbelangen Enschede!”/>
+		<meta property=”og:type” content=”website”/>
+		<meta property=”og:description” content=”Dit is de officiële campagne website van Burgerbelangen Enschede voor de gemeenteraadsverkiezingen van 2014. Hierin presenteren de eerste 11 kandidaten het verkiezingsprogramma aan u voor.“/>
+		<meta property=”og:image” content=”http://gewoonsamendoen.nu/images/Burgerbelangen_Enschede.jpg”/>
+		<meta property=”og:url” content=”http://www.gewoonsamendoen.nu”/>
+		<meta property=”og:site_name” content=”Gewoon Samen Doen: Stem Burgerbelangen Enschede!”/>
+		
+		<!-- Generic -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		
+		<!-- Add fancyBox main JS and CSS files -->
+		<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+		<style type="text/css">
+			@font-face {
+				/* Helvetica Condensed Oblique */
+				font-family: 'Helvetica_BlkExO';
+				src: url('fonts/HelveticaNeueLTStd-BlkExO.otf');
+			}
+			h1 {
+				font-family: "Helvetica_BlkExO"; 
+				color: DodgerBlue;
+				text-align: center;
+				font-size: 60px;
+				text-shadow: 2px 2px LightGray;
+			}
+
+			.partij h3 {
+				font-family: "Helvetica_BlkExO"; 
+				font-size: 30px;
+			}
+			
+			.partij p {
+				font-size: 15px;
+			}
+			
+			.partij a:hover {
+			  text-decoration:none;
+			  color: #921171;
+			}
+			
+			#footer {
+			   position:absolute;
+			   bottom:0;
+			   width:100%;
+			   height:60px;
+			   background-color: #494949;
+			}
+		</style>
+		
+		<script>
+		$(document).ready(function(){
+			$(".fancybox").fancybox();
+
+			$(".gemeente")
+				.mouseover(function(e) {
+					$(this).css({ opacity: 0.5 });
+				})
+				.mouseout(function(e) {
+					$(this).css({ opacity: 0.0 });
+				});
+				
+		});
+		</script>
+	</head>
+	<body>
+		<div>
+			<h1 style="background-color: #494949; width: 100%; z-index:0; position: absolute; height: 250px; padding-top: 10px; margin-top: -130px">
+				Stem Lokaal in het Stemlokaal!
+			</h1>
+			<div id="footer" style="text-align: center;">
+			</div>
+			<div id="kaart" style="width:628px; margin-left:auto; margin-right:auto; margin-top: 130px">
+				<img src="images/stemlokaal-twente.png" style="z-index:1; position:absolute;"/>
+				
+				<a class="fancybox" href="#enschede" title="Gemeente Enschede" style="position: absolute; z-index: 2; margin-left:367px; margin-top: 285px;">
+					<img class="gemeente" src="images/stemlokaal-enschede-overlay.png" style="opacity:0.0;"/>
+				</a>
+				
+				<a class="fancybox" href="#haaksbergen" title="Gemeente Haaksbergen" style="position: absolute; z-index: 3; margin-left:258px; margin-top: 397px;">
+					<img class="gemeente" src="images/stemlokaal-haaksbergen-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#hofvantwente" title="Gemeente Hof van Twente" style="position: absolute; z-index: 2; margin-left:80px; margin-top: 256px;">
+					<img class="gemeente" src="images/stemlokaal-hofvantwente-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#hengelo" title="Gemeente Hengelo" style="position: absolute; z-index: 2; margin-left:321px; margin-top: 248px;">
+					<img class="gemeente" src="images/stemlokaal-hengelo-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#losser" title="Gemeente Losser" style="position: absolute; z-index: 3; margin-left:514px; margin-top: 155px;">
+					<img class="gemeente" src="images/stemlokaal-losser-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#oldenzaal" title="Gemeente Oldenzaal" style="position: absolute; z-index: 4; margin-left:452px; margin-top: 219px;">
+					<img class="gemeente" src="images/stemlokaal-oldenzaal-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#borne" title="Gemeente Borne" style="position: absolute; z-index: 2; margin-left:308px; margin-top: 211px;">
+					<img class="gemeente" src="images/stemlokaal-borne-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#almelo" title="Gemeente Almelo" style="position: absolute; z-index: 4; margin-left:230px; margin-top: 133px;">
+					<img class="gemeente" src="images/stemlokaal-almelo-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#dinkelland" title="Gemeente Dinkelland" style="position: absolute; z-index: 2; margin-left:366px; margin-top: 31px;">
+					<img class="gemeente" src="images/stemlokaal-dinkelland-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#tubbergen" title="Gemeente Tubbergen" style="position: absolute; z-index: 2; margin-left:289px; margin-top: 24px;">
+					<img class="gemeente" src="images/stemlokaal-tubbergen-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#twenterand" title="Gemeente Twenterand" style="position: absolute; z-index: 2; margin-left:102px; margin-top: 2px;">
+					<img class="gemeente" src="images/stemlokaal-twenterand-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#wierden" title="Gemeente Wierden" style="position: absolute; z-index: 3; margin-left:122px; margin-top: 109px;">
+					<img class="gemeente" src="images/stemlokaal-wierden-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#hellendoorn" title="Gemeente Hellendoorn" style="position: absolute; z-index: 2; margin-left:8px; margin-top: 50px;">
+					<img class="gemeente" src="images/stemlokaal-hellendoorn-overlay.png" style="opacity:0.0;"/>
+				</a>
+
+				<a class="fancybox" href="#rijssenholten" title="Gemeente Rijssen-Holten" style="position: absolute; z-index: 4; margin-left:3px; margin-top: 235px;">
+					<img class="gemeente" src="images/stemlokaal-rijssenholten-overlay.png" style="opacity:0.0;"/>
+				</a>
+			</div>
+
+			<div id="enschede" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="haaksbergen" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="hofvantwente" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="hengelo" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="losser" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="oldenzaal" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="borne" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="almelo" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="dinkelland" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="tubbergen" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="twenterand" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="wierden" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="hellendoorn" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+
+			<div id="rijssenholten" class="partij" style="width: 800px; margin-left: auto; margin-right: auto; display: none;">
+				<a href="http://www.gewoonsamendoen.nu" style="text-decoration: none; color: #921171">
+					<img src="images/Burgerbelangen_Enschede.jpg" style="float: left; margin-left: 10px; margin-top: 10px; margin-right: 10px; width: 142px; height: 150px"/>
+					<h3>Burgerbelangen Enschede!</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+					</p>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
