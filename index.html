@@ -121,7 +121,9 @@
 			$(".overdezewebsite")
 				.click(function(e) {
 					$("#infotekst").toggle("slide");
-					event.stopPropagation();
+					
+					if (!e) var e = window.event;
+					e.stopPropagation();
 				});
 
 			$(document)
